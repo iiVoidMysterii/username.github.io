@@ -1,0 +1,96 @@
+
+Great! With the information you've provided, I'll start drafting your personal webpage. If you have any specific interests, hobbies, or social media profiles you want to include, let me know. Otherwise, I'll create a general layout based on the given details.
+
+Here's the HTML code for your personal webpage:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToonGamingX - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ToonGamingX</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm ToonGamingX. I started my adventure making videos at a young age, and as the years pass, I've gotten smarter and I'm able to make leaps beyond what I could do in the past.</p>
+        </section>
+        <section>
+            <h2>My Interests</h2>
+            <p>I am passionate about creating content, especially videos. My interests include gaming, video editing, and exploring new technology trends to enhance my creations.</p>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <p>You can reach out to me through the following social media platforms:</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ToonGamingX" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/ToonGamingX" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/ToonGamingX" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        &copy; 2024 ToonGamingX. All rights reserved.
+    </footer>
+</body>
+</html>
